@@ -1,0 +1,970 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>El Marwan | Full Company Site</title>
+    <style>
+        body { margin: 0; font-family: 'Segoe UI', sans-serif; background-color: #f9f9f9; }
+        .container { display: flex; height: 100vh; }
+        .sidebar {
+            width: 280px;
+            background-color: #1d3557;
+            color: white;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .sidebar h2 { font-size: 22px; margin-bottom: 20px; }
+        .sidebar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 8px 0;
+            border-bottom: 1px solid #457b9d;
+            cursor: pointer;
+        }
+        .sidebar a:hover { background-color: #457b9d; }
+        .content {
+            flex: 1;
+            padding: 30px;
+            overflow-y: auto;
+            background-color: #fff;
+        }
+        h2 { color: #1d3557; }
+        img { max-width: 100%; border-radius: 6px; }
+        p { line-height: 1.8; font-size: 16px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="sidebar">
+        <h2>Company Sections</h2>
+        <a onclick="showSection('section1')">About El Marwan</a>
+<a onclick="showSection('section2')">Our Services</a>
+<a onclick="showSection('section3')">Vision & Mission</a>
+<a onclick="showSection('section4')">Auto Spare Parts</a>
+<a onclick="showSection('section5')">Logistics Solutions</a>
+<a onclick="showSection('section6')">Warehousing Operations</a>
+<a onclick="showSection('section7')">Wholesale Distribution</a>
+<a onclick="showSection('section8')">Retail Support</a>
+<a onclick="showSection('section9')">Customer Service Commitment</a>
+<a onclick="showSection('section10')">Contact Information</a>
+<a onclick="showSection('section11')">Join Our Team</a>
+<a onclick="showSection('section12')">Leadership & Management</a>
+<a onclick="showSection('section13')">Company History</a>
+<a onclick="showSection('section14')">Sustainability Approach</a>
+<a onclick="showSection('section15')">Innovation in Supply Chain</a>
+<a onclick="showSection('section16')">Global Certifications</a>
+<a onclick="showSection('section17')">Safety Standards</a>
+<a onclick="showSection('section18')">Worldwide Sourcing</a>
+<a onclick="showSection('section19')">Market Trends</a>
+<a onclick="showSection('section20')">Brand Values</a>
+<a onclick="showSection('section21')">Quality Assurance</a>
+<a onclick="showSection('section22')">Return & Refund Policy</a>
+<a onclick="showSection('section23')">Frequently Asked Questions</a>
+<a onclick="showSection('section24')">Client Testimonials</a>
+<a onclick="showSection('section25')">Company Blog</a>
+<a onclick="showSection('section26')">Industry Events</a>
+<a onclick="showSection('section27')">Company News</a>
+<a onclick="showSection('section28')">Partner with Us</a>
+<a onclick="showSection('section29')">Investor Relations</a>
+<a onclick="showSection('section30')">Our Dealer Network</a>
+<a onclick="showSection('section31')">OEM Capabilities</a>
+<a onclick="showSection('section32')">Aftermarket Support</a>
+<a onclick="showSection('section33')">Technical Support Services</a>
+<a onclick="showSection('section34')">Training Programs</a>
+<a onclick="showSection('section35')">Digital Tools & Resources</a>
+<a onclick="showSection('section36')">Pricing Strategy</a>
+<a onclick="showSection('section37')">Accepted Payment Methods</a>
+<a onclick="showSection('section38')">Shipping & Delivery</a>
+<a onclick="showSection('section39')">Terms and Conditions</a>
+<a onclick="showSection('section40')">Privacy & Data Policy</a>
+<a onclick="showSection('section41')">Export Compliance</a>
+<a onclick="showSection('section42')">Import Process</a>
+<a onclick="showSection('section43')">Fleet Management</a>
+<a onclick="showSection('section44')">Our Locations</a>
+<a onclick="showSection('section45')">Corporate Social Responsibility</a>
+<a onclick="showSection('section46')">Business Ethics</a>
+<a onclick="showSection('section47')">Legal Registrations</a>
+<a onclick="showSection('section48')">Strategic Planning</a>
+<a onclick="showSection('section49')">Performance Dashboard</a>
+<a onclick="showSection('section50')">Team Culture & Values</a>
+<a onclick="showSection('section51')">Annual Highlights</a>
+<a onclick="showSection('section52')">Success Stories</a>
+<a onclick="showSection('section53')">Business Objectives</a>
+<a onclick="showSection('section54')">Fleet Maintenance Services</a>
+<a onclick="showSection('section55')">Custom Order Services</a>
+<a onclick="showSection('section56')">Real-time Tracking</a>
+<a onclick="showSection('section57')">Product Catalog</a>
+<a onclick="showSection('section58')">Partner Guidelines</a>
+<a onclick="showSection('section59')">Company Timeline</a>
+<a onclick="showSection('section60')">Infrastructure & Facilities</a>
+<a onclick="showSection('section61')">Energy Efficiency</a>
+<a onclick="showSection('section62')">Inventory Control</a>
+<a onclick="showSection('section63')">E-Catalog Access</a>
+<a onclick="showSection('section64')">Mobile App Features</a>
+<a onclick="showSection('section65')">Dealer Login Portal</a>
+<a onclick="showSection('section66')">Hiring Opportunities</a>
+<a onclick="showSection('section67')">Press Announcements</a>
+<a onclick="showSection('section68')">Video Library</a>
+<a onclick="showSection('section69')">Photo Library</a>
+<a onclick="showSection('section70')">Awards & Recognition</a>
+<a onclick="showSection('section71')">Technical Workshops</a>
+<a onclick="showSection('section72')">Sourcing Strategy</a>
+<a onclick="showSection('section73')">Vendor Management</a>
+<a onclick="showSection('section74')">Product Inspections</a>
+<a onclick="showSection('section75')">Staff Development</a>
+<a onclick="showSection('section76')">Online Training</a>
+<a onclick="showSection('section77')">Knowledge Base</a>
+<a onclick="showSection('section78')">Downloadable Resources</a>
+<a onclick="showSection('section79')">Legal Center</a>
+<a onclick="showSection('section80')">Multilingual Support</a>
+<a onclick="showSection('section81')">International Trade Overview</a>
+<a onclick="showSection('section82')">Custom Duties & Tariffs</a>
+<a onclick="showSection('section83')">Vehicles Covered</a>
+<a onclick="showSection('section84')">Warranty Policies</a>
+<a onclick="showSection('section85')">Business Analytics</a>
+<a onclick="showSection('section86')">B2B Collaboration</a>
+<a onclick="showSection('section87')">B2C Offerings</a>
+<a onclick="showSection('section88')">CSR Report</a>
+<a onclick="showSection('section89')">Business Alliances</a>
+<a onclick="showSection('section90')">Trade Fairs</a>
+<a onclick="showSection('section91')">Regulatory Compliance</a>
+<a onclick="showSection('section92')">Supply Chain Workflow</a>
+<a onclick="showSection('section93')">Fleet Solutions</a>
+<a onclick="showSection('section94')">Remote Tech Help</a>
+<a onclick="showSection('section95')">On-site Support</a>
+<a onclick="showSection('section96')">Insurance Partners</a>
+<a onclick="showSection('section97')">Industry Awards</a>
+<a onclick="showSection('section98')">Road Safety Commitment</a>
+<a onclick="showSection('section99')">Environmental Policy</a>
+<a onclick="showSection('section100')">Support Desk</a>
+
+    </div>
+    <div class="content" id="main-content">
+        
+<header style="background-color: #1d3557; color: white; padding: 40px; text-align: center;">
+    <h1>Welcome to El Marwan for Import & Export</h1>
+    <p style="max-width: 800px; margin: auto; font-size: 18px;">
+        El Marwan is a trusted Egyptian company operating in the field of automotive spare parts and logistics services.
+        With a legacy of excellence, we have built strong relationships locally and globally, delivering unmatched
+        service and value to our clients and partners across the region.
+    </p>
+</header>
+<section style="padding: 30px; max-width: 1000px; margin: auto; text-align: center;">
+<img src="https://source.unsplash.com/1100x400/?transport,auto,industry&sig=0" style="width:100%; margin:20px 0; border-radius:8px;"><img src="https://source.unsplash.com/1100x400/?transport,auto,industry&sig=1" style="width:100%; margin:20px 0; border-radius:8px;"><img src="https://source.unsplash.com/1100x400/?transport,auto,industry&sig=2" style="width:100%; margin:20px 0; border-radius:8px;"><img src="https://source.unsplash.com/1100x400/?transport,auto,industry&sig=3" style="width:100%; margin:20px 0; border-radius:8px;"><img src="https://source.unsplash.com/1100x400/?transport,auto,industry&sig=4" style="width:100%; margin:20px 0; border-radius:8px;"><img src="https://source.unsplash.com/1100x400/?transport,auto,industry&sig=5" style="width:100%; margin:20px 0; border-radius:8px;"></section>
+        
+        <div id="section1" class="section" style="display: none;">
+            <h2>About El Marwan</h2>
+            <p><strong>About El Marwan</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=0" alt="About El Marwan image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in about el marwan, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=100" alt="About El Marwan image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section2" class="section" style="display: none;">
+            <h2>Our Services</h2>
+            <p><strong>Our Services</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=1" alt="Our Services image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in our services, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=101" alt="Our Services image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section3" class="section" style="display: none;">
+            <h2>Vision & Mission</h2>
+            <p><strong>Vision & Mission</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=2" alt="Vision & Mission image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in vision & mission, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=102" alt="Vision & Mission image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section4" class="section" style="display: none;">
+            <h2>Auto Spare Parts</h2>
+            <p><strong>Auto Spare Parts</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=3" alt="Auto Spare Parts image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in auto spare parts, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=103" alt="Auto Spare Parts image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section5" class="section" style="display: none;">
+            <h2>Logistics Solutions</h2>
+            <p><strong>Logistics Solutions</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=4" alt="Logistics Solutions image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in logistics solutions, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=104" alt="Logistics Solutions image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section6" class="section" style="display: none;">
+            <h2>Warehousing Operations</h2>
+            <p><strong>Warehousing Operations</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=5" alt="Warehousing Operations image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in warehousing operations, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=105" alt="Warehousing Operations image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section7" class="section" style="display: none;">
+            <h2>Wholesale Distribution</h2>
+            <p><strong>Wholesale Distribution</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=6" alt="Wholesale Distribution image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in wholesale distribution, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=106" alt="Wholesale Distribution image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section8" class="section" style="display: none;">
+            <h2>Retail Support</h2>
+            <p><strong>Retail Support</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=7" alt="Retail Support image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in retail support, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=107" alt="Retail Support image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section9" class="section" style="display: none;">
+            <h2>Customer Service Commitment</h2>
+            <p><strong>Customer Service Commitment</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=8" alt="Customer Service Commitment image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in customer service commitment, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=108" alt="Customer Service Commitment image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section10" class="section" style="display: none;">
+            <h2>Contact Information</h2>
+            <p><strong>Contact Information</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=9" alt="Contact Information image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in contact information, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=109" alt="Contact Information image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section11" class="section" style="display: none;">
+            <h2>Join Our Team</h2>
+            <p><strong>Join Our Team</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=10" alt="Join Our Team image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in join our team, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=110" alt="Join Our Team image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section12" class="section" style="display: none;">
+            <h2>Leadership & Management</h2>
+            <p><strong>Leadership & Management</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=11" alt="Leadership & Management image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in leadership & management, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=111" alt="Leadership & Management image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section13" class="section" style="display: none;">
+            <h2>Company History</h2>
+            <p><strong>Company History</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=12" alt="Company History image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in company history, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=112" alt="Company History image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section14" class="section" style="display: none;">
+            <h2>Sustainability Approach</h2>
+            <p><strong>Sustainability Approach</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=13" alt="Sustainability Approach image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in sustainability approach, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=113" alt="Sustainability Approach image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section15" class="section" style="display: none;">
+            <h2>Innovation in Supply Chain</h2>
+            <p><strong>Innovation in Supply Chain</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=14" alt="Innovation in Supply Chain image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in innovation in supply chain, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=114" alt="Innovation in Supply Chain image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section16" class="section" style="display: none;">
+            <h2>Global Certifications</h2>
+            <p><strong>Global Certifications</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=15" alt="Global Certifications image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in global certifications, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=115" alt="Global Certifications image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section17" class="section" style="display: none;">
+            <h2>Safety Standards</h2>
+            <p><strong>Safety Standards</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=16" alt="Safety Standards image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in safety standards, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=116" alt="Safety Standards image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section18" class="section" style="display: none;">
+            <h2>Worldwide Sourcing</h2>
+            <p><strong>Worldwide Sourcing</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=17" alt="Worldwide Sourcing image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in worldwide sourcing, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=117" alt="Worldwide Sourcing image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section19" class="section" style="display: none;">
+            <h2>Market Trends</h2>
+            <p><strong>Market Trends</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=18" alt="Market Trends image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in market trends, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=118" alt="Market Trends image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section20" class="section" style="display: none;">
+            <h2>Brand Values</h2>
+            <p><strong>Brand Values</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=19" alt="Brand Values image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in brand values, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=119" alt="Brand Values image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section21" class="section" style="display: none;">
+            <h2>Quality Assurance</h2>
+            <p><strong>Quality Assurance</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=20" alt="Quality Assurance image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in quality assurance, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=120" alt="Quality Assurance image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section22" class="section" style="display: none;">
+            <h2>Return & Refund Policy</h2>
+            <p><strong>Return & Refund Policy</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=21" alt="Return & Refund Policy image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in return & refund policy, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=121" alt="Return & Refund Policy image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section23" class="section" style="display: none;">
+            <h2>Frequently Asked Questions</h2>
+            <p><strong>Frequently Asked Questions</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=22" alt="Frequently Asked Questions image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in frequently asked questions, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=122" alt="Frequently Asked Questions image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section24" class="section" style="display: none;">
+            <h2>Client Testimonials</h2>
+            <p><strong>Client Testimonials</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=23" alt="Client Testimonials image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in client testimonials, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=123" alt="Client Testimonials image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section25" class="section" style="display: none;">
+            <h2>Company Blog</h2>
+            <p><strong>Company Blog</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=24" alt="Company Blog image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in company blog, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=124" alt="Company Blog image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section26" class="section" style="display: none;">
+            <h2>Industry Events</h2>
+            <p><strong>Industry Events</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=25" alt="Industry Events image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in industry events, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=125" alt="Industry Events image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section27" class="section" style="display: none;">
+            <h2>Company News</h2>
+            <p><strong>Company News</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=26" alt="Company News image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in company news, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=126" alt="Company News image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section28" class="section" style="display: none;">
+            <h2>Partner with Us</h2>
+            <p><strong>Partner with Us</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=27" alt="Partner with Us image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in partner with us, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=127" alt="Partner with Us image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section29" class="section" style="display: none;">
+            <h2>Investor Relations</h2>
+            <p><strong>Investor Relations</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=28" alt="Investor Relations image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in investor relations, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=128" alt="Investor Relations image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section30" class="section" style="display: none;">
+            <h2>Our Dealer Network</h2>
+            <p><strong>Our Dealer Network</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=29" alt="Our Dealer Network image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in our dealer network, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=129" alt="Our Dealer Network image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section31" class="section" style="display: none;">
+            <h2>OEM Capabilities</h2>
+            <p><strong>OEM Capabilities</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=30" alt="OEM Capabilities image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in oem capabilities, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=130" alt="OEM Capabilities image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section32" class="section" style="display: none;">
+            <h2>Aftermarket Support</h2>
+            <p><strong>Aftermarket Support</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=31" alt="Aftermarket Support image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in aftermarket support, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=131" alt="Aftermarket Support image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section33" class="section" style="display: none;">
+            <h2>Technical Support Services</h2>
+            <p><strong>Technical Support Services</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=32" alt="Technical Support Services image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in technical support services, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=132" alt="Technical Support Services image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section34" class="section" style="display: none;">
+            <h2>Training Programs</h2>
+            <p><strong>Training Programs</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=33" alt="Training Programs image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in training programs, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=133" alt="Training Programs image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section35" class="section" style="display: none;">
+            <h2>Digital Tools & Resources</h2>
+            <p><strong>Digital Tools & Resources</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=34" alt="Digital Tools & Resources image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in digital tools & resources, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=134" alt="Digital Tools & Resources image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section36" class="section" style="display: none;">
+            <h2>Pricing Strategy</h2>
+            <p><strong>Pricing Strategy</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=35" alt="Pricing Strategy image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in pricing strategy, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=135" alt="Pricing Strategy image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section37" class="section" style="display: none;">
+            <h2>Accepted Payment Methods</h2>
+            <p><strong>Accepted Payment Methods</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=36" alt="Accepted Payment Methods image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in accepted payment methods, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=136" alt="Accepted Payment Methods image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section38" class="section" style="display: none;">
+            <h2>Shipping & Delivery</h2>
+            <p><strong>Shipping & Delivery</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=37" alt="Shipping & Delivery image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in shipping & delivery, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=137" alt="Shipping & Delivery image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section39" class="section" style="display: none;">
+            <h2>Terms and Conditions</h2>
+            <p><strong>Terms and Conditions</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=38" alt="Terms and Conditions image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in terms and conditions, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=138" alt="Terms and Conditions image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section40" class="section" style="display: none;">
+            <h2>Privacy & Data Policy</h2>
+            <p><strong>Privacy & Data Policy</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=39" alt="Privacy & Data Policy image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in privacy & data policy, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=139" alt="Privacy & Data Policy image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section41" class="section" style="display: none;">
+            <h2>Export Compliance</h2>
+            <p><strong>Export Compliance</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=40" alt="Export Compliance image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in export compliance, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=140" alt="Export Compliance image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section42" class="section" style="display: none;">
+            <h2>Import Process</h2>
+            <p><strong>Import Process</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=41" alt="Import Process image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in import process, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=141" alt="Import Process image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section43" class="section" style="display: none;">
+            <h2>Fleet Management</h2>
+            <p><strong>Fleet Management</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=42" alt="Fleet Management image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in fleet management, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=142" alt="Fleet Management image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section44" class="section" style="display: none;">
+            <h2>Our Locations</h2>
+            <p><strong>Our Locations</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=43" alt="Our Locations image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in our locations, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=143" alt="Our Locations image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section45" class="section" style="display: none;">
+            <h2>Corporate Social Responsibility</h2>
+            <p><strong>Corporate Social Responsibility</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=44" alt="Corporate Social Responsibility image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in corporate social responsibility, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=144" alt="Corporate Social Responsibility image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section46" class="section" style="display: none;">
+            <h2>Business Ethics</h2>
+            <p><strong>Business Ethics</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=45" alt="Business Ethics image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in business ethics, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=145" alt="Business Ethics image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section47" class="section" style="display: none;">
+            <h2>Legal Registrations</h2>
+            <p><strong>Legal Registrations</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=46" alt="Legal Registrations image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in legal registrations, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=146" alt="Legal Registrations image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section48" class="section" style="display: none;">
+            <h2>Strategic Planning</h2>
+            <p><strong>Strategic Planning</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=47" alt="Strategic Planning image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in strategic planning, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=147" alt="Strategic Planning image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section49" class="section" style="display: none;">
+            <h2>Performance Dashboard</h2>
+            <p><strong>Performance Dashboard</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=48" alt="Performance Dashboard image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in performance dashboard, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=148" alt="Performance Dashboard image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section50" class="section" style="display: none;">
+            <h2>Team Culture & Values</h2>
+            <p><strong>Team Culture & Values</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=49" alt="Team Culture & Values image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in team culture & values, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=149" alt="Team Culture & Values image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section51" class="section" style="display: none;">
+            <h2>Annual Highlights</h2>
+            <p><strong>Annual Highlights</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=50" alt="Annual Highlights image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in annual highlights, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=150" alt="Annual Highlights image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section52" class="section" style="display: none;">
+            <h2>Success Stories</h2>
+            <p><strong>Success Stories</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=51" alt="Success Stories image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in success stories, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=151" alt="Success Stories image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section53" class="section" style="display: none;">
+            <h2>Business Objectives</h2>
+            <p><strong>Business Objectives</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=52" alt="Business Objectives image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in business objectives, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=152" alt="Business Objectives image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section54" class="section" style="display: none;">
+            <h2>Fleet Maintenance Services</h2>
+            <p><strong>Fleet Maintenance Services</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=53" alt="Fleet Maintenance Services image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in fleet maintenance services, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=153" alt="Fleet Maintenance Services image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section55" class="section" style="display: none;">
+            <h2>Custom Order Services</h2>
+            <p><strong>Custom Order Services</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=54" alt="Custom Order Services image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in custom order services, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=154" alt="Custom Order Services image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section56" class="section" style="display: none;">
+            <h2>Real-time Tracking</h2>
+            <p><strong>Real-time Tracking</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=55" alt="Real-time Tracking image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in real-time tracking, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=155" alt="Real-time Tracking image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section57" class="section" style="display: none;">
+            <h2>Product Catalog</h2>
+            <p><strong>Product Catalog</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=56" alt="Product Catalog image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in product catalog, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=156" alt="Product Catalog image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section58" class="section" style="display: none;">
+            <h2>Partner Guidelines</h2>
+            <p><strong>Partner Guidelines</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=57" alt="Partner Guidelines image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in partner guidelines, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=157" alt="Partner Guidelines image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section59" class="section" style="display: none;">
+            <h2>Company Timeline</h2>
+            <p><strong>Company Timeline</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=58" alt="Company Timeline image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in company timeline, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=158" alt="Company Timeline image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section60" class="section" style="display: none;">
+            <h2>Infrastructure & Facilities</h2>
+            <p><strong>Infrastructure & Facilities</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=59" alt="Infrastructure & Facilities image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in infrastructure & facilities, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=159" alt="Infrastructure & Facilities image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section61" class="section" style="display: none;">
+            <h2>Energy Efficiency</h2>
+            <p><strong>Energy Efficiency</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=60" alt="Energy Efficiency image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in energy efficiency, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=160" alt="Energy Efficiency image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section62" class="section" style="display: none;">
+            <h2>Inventory Control</h2>
+            <p><strong>Inventory Control</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=61" alt="Inventory Control image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in inventory control, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=161" alt="Inventory Control image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section63" class="section" style="display: none;">
+            <h2>E-Catalog Access</h2>
+            <p><strong>E-Catalog Access</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=62" alt="E-Catalog Access image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in e-catalog access, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=162" alt="E-Catalog Access image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section64" class="section" style="display: none;">
+            <h2>Mobile App Features</h2>
+            <p><strong>Mobile App Features</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=63" alt="Mobile App Features image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in mobile app features, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=163" alt="Mobile App Features image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section65" class="section" style="display: none;">
+            <h2>Dealer Login Portal</h2>
+            <p><strong>Dealer Login Portal</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=64" alt="Dealer Login Portal image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in dealer login portal, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=164" alt="Dealer Login Portal image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section66" class="section" style="display: none;">
+            <h2>Hiring Opportunities</h2>
+            <p><strong>Hiring Opportunities</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=65" alt="Hiring Opportunities image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in hiring opportunities, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=165" alt="Hiring Opportunities image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section67" class="section" style="display: none;">
+            <h2>Press Announcements</h2>
+            <p><strong>Press Announcements</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=66" alt="Press Announcements image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in press announcements, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=166" alt="Press Announcements image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section68" class="section" style="display: none;">
+            <h2>Video Library</h2>
+            <p><strong>Video Library</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=67" alt="Video Library image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in video library, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=167" alt="Video Library image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section69" class="section" style="display: none;">
+            <h2>Photo Library</h2>
+            <p><strong>Photo Library</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=68" alt="Photo Library image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in photo library, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=168" alt="Photo Library image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section70" class="section" style="display: none;">
+            <h2>Awards & Recognition</h2>
+            <p><strong>Awards & Recognition</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=69" alt="Awards & Recognition image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in awards & recognition, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=169" alt="Awards & Recognition image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section71" class="section" style="display: none;">
+            <h2>Technical Workshops</h2>
+            <p><strong>Technical Workshops</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=70" alt="Technical Workshops image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in technical workshops, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=170" alt="Technical Workshops image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section72" class="section" style="display: none;">
+            <h2>Sourcing Strategy</h2>
+            <p><strong>Sourcing Strategy</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=71" alt="Sourcing Strategy image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in sourcing strategy, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=171" alt="Sourcing Strategy image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section73" class="section" style="display: none;">
+            <h2>Vendor Management</h2>
+            <p><strong>Vendor Management</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=72" alt="Vendor Management image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in vendor management, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=172" alt="Vendor Management image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section74" class="section" style="display: none;">
+            <h2>Product Inspections</h2>
+            <p><strong>Product Inspections</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=73" alt="Product Inspections image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in product inspections, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=173" alt="Product Inspections image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section75" class="section" style="display: none;">
+            <h2>Staff Development</h2>
+            <p><strong>Staff Development</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=74" alt="Staff Development image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in staff development, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=174" alt="Staff Development image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section76" class="section" style="display: none;">
+            <h2>Online Training</h2>
+            <p><strong>Online Training</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=75" alt="Online Training image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in online training, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=175" alt="Online Training image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section77" class="section" style="display: none;">
+            <h2>Knowledge Base</h2>
+            <p><strong>Knowledge Base</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=76" alt="Knowledge Base image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in knowledge base, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=176" alt="Knowledge Base image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section78" class="section" style="display: none;">
+            <h2>Downloadable Resources</h2>
+            <p><strong>Downloadable Resources</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=77" alt="Downloadable Resources image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in downloadable resources, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=177" alt="Downloadable Resources image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section79" class="section" style="display: none;">
+            <h2>Legal Center</h2>
+            <p><strong>Legal Center</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=78" alt="Legal Center image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in legal center, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=178" alt="Legal Center image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section80" class="section" style="display: none;">
+            <h2>Multilingual Support</h2>
+            <p><strong>Multilingual Support</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=79" alt="Multilingual Support image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in multilingual support, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=179" alt="Multilingual Support image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section81" class="section" style="display: none;">
+            <h2>International Trade Overview</h2>
+            <p><strong>International Trade Overview</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=80" alt="International Trade Overview image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in international trade overview, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=180" alt="International Trade Overview image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section82" class="section" style="display: none;">
+            <h2>Custom Duties & Tariffs</h2>
+            <p><strong>Custom Duties & Tariffs</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=81" alt="Custom Duties & Tariffs image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in custom duties & tariffs, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=181" alt="Custom Duties & Tariffs image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section83" class="section" style="display: none;">
+            <h2>Vehicles Covered</h2>
+            <p><strong>Vehicles Covered</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=82" alt="Vehicles Covered image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in vehicles covered, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=182" alt="Vehicles Covered image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section84" class="section" style="display: none;">
+            <h2>Warranty Policies</h2>
+            <p><strong>Warranty Policies</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=83" alt="Warranty Policies image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in warranty policies, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=183" alt="Warranty Policies image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section85" class="section" style="display: none;">
+            <h2>Business Analytics</h2>
+            <p><strong>Business Analytics</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=84" alt="Business Analytics image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in business analytics, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=184" alt="Business Analytics image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section86" class="section" style="display: none;">
+            <h2>B2B Collaboration</h2>
+            <p><strong>B2B Collaboration</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=85" alt="B2B Collaboration image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in b2b collaboration, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=185" alt="B2B Collaboration image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section87" class="section" style="display: none;">
+            <h2>B2C Offerings</h2>
+            <p><strong>B2C Offerings</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=86" alt="B2C Offerings image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in b2c offerings, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=186" alt="B2C Offerings image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section88" class="section" style="display: none;">
+            <h2>CSR Report</h2>
+            <p><strong>CSR Report</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=87" alt="CSR Report image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in csr report, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=187" alt="CSR Report image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section89" class="section" style="display: none;">
+            <h2>Business Alliances</h2>
+            <p><strong>Business Alliances</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=88" alt="Business Alliances image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in business alliances, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=188" alt="Business Alliances image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section90" class="section" style="display: none;">
+            <h2>Trade Fairs</h2>
+            <p><strong>Trade Fairs</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=89" alt="Trade Fairs image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in trade fairs, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=189" alt="Trade Fairs image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section91" class="section" style="display: none;">
+            <h2>Regulatory Compliance</h2>
+            <p><strong>Regulatory Compliance</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=90" alt="Regulatory Compliance image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in regulatory compliance, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=190" alt="Regulatory Compliance image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section92" class="section" style="display: none;">
+            <h2>Supply Chain Workflow</h2>
+            <p><strong>Supply Chain Workflow</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=91" alt="Supply Chain Workflow image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in supply chain workflow, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=191" alt="Supply Chain Workflow image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section93" class="section" style="display: none;">
+            <h2>Fleet Solutions</h2>
+            <p><strong>Fleet Solutions</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=92" alt="Fleet Solutions image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in fleet solutions, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=192" alt="Fleet Solutions image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section94" class="section" style="display: none;">
+            <h2>Remote Tech Help</h2>
+            <p><strong>Remote Tech Help</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=93" alt="Remote Tech Help image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in remote tech help, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=193" alt="Remote Tech Help image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section95" class="section" style="display: none;">
+            <h2>On-site Support</h2>
+            <p><strong>On-site Support</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=94" alt="On-site Support image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in on-site support, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=194" alt="On-site Support image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section96" class="section" style="display: none;">
+            <h2>Insurance Partners</h2>
+            <p><strong>Insurance Partners</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=95" alt="Insurance Partners image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in insurance partners, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=195" alt="Insurance Partners image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section97" class="section" style="display: none;">
+            <h2>Industry Awards</h2>
+            <p><strong>Industry Awards</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=96" alt="Industry Awards image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in industry awards, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=196" alt="Industry Awards image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section98" class="section" style="display: none;">
+            <h2>Road Safety Commitment</h2>
+            <p><strong>Road Safety Commitment</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=97" alt="Road Safety Commitment image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in road safety commitment, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=197" alt="Road Safety Commitment image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section99" class="section" style="display: none;">
+            <h2>Environmental Policy</h2>
+            <p><strong>Environmental Policy</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=98" alt="Environmental Policy image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in environmental policy, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=198" alt="Environmental Policy image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+        <div id="section100" class="section" style="display: none;">
+            <h2>Support Desk</h2>
+            <p><strong>Support Desk</strong> is a vital part of our operation. We take pride in this aspect of our business, ensuring it aligns with El Marwan's values of integrity, quality, and innovation. Every initiative under this area is built to enhance our long-term relationship with partners, streamline operations, and drive real-world impact across the automotive and logistics industries.</p>
+            <img src="https://source.unsplash.com/1200x400/?logistics,auto,shipping&sig=99" alt="Support Desk image 1" style="width:100%; margin: 20px 0; border-radius: 6px;">
+            <p>Our team invests in continuous improvement in support desk, whether through technology, expert staffing, or feedback-driven updates. It reflects our belief that excellence in every small detail leads to sustainable growth. As part of our commitment to transparency, we welcome our clients and stakeholders to explore this section to understand how El Marwan leads with purpose and professionalism.</p>
+            <img src="https://source.unsplash.com/1200x400/?industry,business,warehouse&sig=199" alt="Support Desk image 2" style="width:100%; border-radius: 6px;">
+        </div>
+    
+    </div>
+</div>
+
+<script>
+    function showSection(id) {
+        document.querySelectorAll('.section').forEach(s => s.style.display = 'none');
+        document.getElementById(id).style.display = 'block';
+        window.scrollTo(0, 0);
+    }
+</script>
+
+</body>
+</html>
